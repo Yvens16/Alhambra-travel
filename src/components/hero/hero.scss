@@ -1,0 +1,76 @@
+.hero {
+  background: linear-gradient(#2423239c, #2e2d2d8c,), url('../../assets/hero/abu_dhabi_second.jpeg') center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  a {
+    text-decoration: none;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    #black {
+      color: black;
+    }
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+    width: 150px;
+    height: 200px;
+    @media (min-width: 768px) {
+      width: 300px;
+      height: 300px;
+    }
+    @media (min-width: 1024px) {
+      width: 400px;
+      height: 300px;
+    }
+    background: url('../../assets/hero/eight_point_star.png') no-repeat center center;
+    color: #cbb26A;
+    font-size: 25px;
+    @media (min-width: 768px) {
+      font-size: 45px;
+    }
+    background-size: contain;
+  } 
+  &_billeterie {
+    display: flex;
+    flex-direction: column;
+    span {
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      @media (min-width: 768px) {
+        font-size: 23px;
+      }
+      color: #bf1922;
+    }
+  }
+}
+
+
+
+
+  // background: linear-gradient(rgba(36, 35, 35, 0.45), rgba(46, 45, 45, 0.45)), url('../../assets/hero/mecca_small.jpeg');
+  // background: url('../../assets/hero/mosque_first_small.jpeg') center center fixed;
+  // background-position: center center;
+  // @media (min-width: 768px) {
+  //   // background: linear-gradient(rgba(36, 35, 35, 0.45), rgba(46, 45, 45, 0.45)), url('../../assets/hero/mecca_medium.jpeg');
+  //   background: url('../../assets/hero/abu_dhabi_first.jpeg') no-repeat center center fixed;
+  //   background-size: cover;
+  // background-position: center center;
+  // }
+  // @media (min-width: 1024px) {
+  //   background: linear-gradient(rgba(36, 35, 35, 0.45), rgba(46, 45, 45, 0.45)), url('../../assets/hero/mecca_xlarge.jpeg');
+  //   background-position: center center;
+  //   }

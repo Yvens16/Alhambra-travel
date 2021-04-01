@@ -1,0 +1,49 @@
+.section-omra {
+  background: linear-gradient(#24232373, #2e2d2d28, #2e2d2d8f, #2e2d2d00), url('../../assets/hero/abu_dhabi_second.jpeg') center center fixed;
+  background-size: cover;
+  padding-top: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  @media (min-width:768px) {
+    flex-direction: row;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .description {
+      text-align: center;
+      font-size: 25px;
+    }
+    .tarif {
+      color: #bf1922;
+      font-weight: bold;
+    }
+  }
+  .box {
+    background: url('../../assets//hero/eight_point_star.png') no-repeat center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    // background: #b7b7a4;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    img {
+      border-radius: 10px;
+      width: 200px;
+      height: 200px;
+    }
+    .tarif {
+      color: #bf1922;
+      font-weight: bold;
+    }
+  }
+}
